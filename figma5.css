@@ -1,0 +1,251 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#loader {
+    position: absolute;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    left: 50%;
+    margin: -76px 0 0 -76px;
+    top: 50%;
+    z-index: 1;
+    border-top: 16px solid blue;
+    border-right: 16px solid green;
+    border-bottom: 16px solid red;
+    border-left: 16px solid rgb(167, 7, 198);
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  
+ .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+  
+  #myDiv {
+    display: flex;
+    text-align: center;
+  }
+
+.kids {
+  background-image: url(child.png);
+  background-size: cover;
+  height: 500px;
+  padding-top: 136px;
+  padding-bottom: 136px;
+  margin-bottom: 90px;
+}
+.kids__title {
+ /* WINTER WONDERLAND */
+
+position: absolute;
+width: 543px;
+height: 60px;
+left: 121px;
+top: 120px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 800;
+font-size: 50px;
+line-height: 60px;
+/* identical to box height */
+display: flex;
+align-items: center;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+
+}
+.kids__text {
+  font-size: 26px;
+  margin-bottom: 70px;
+  color: white;
+
+  /* KIDS’ COLD WEATHER STYLE */
+
+position: absolute;
+width: 324px;
+height: 31px;
+left: 121px;
+top: 250px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+display: flex;
+align-items: center;
+letter-spacing: -0.02em;
+color: #FFFFFF;
+}
+.kids__buttons{
+  display: flex;
+  gap: 20px;
+  /* Group 970 */
+position: absolute;
+width: 450px;
+height: 50px;
+left: 121px;
+}
+.btn-boys{
+/* Rectangle 4 */
+position: absolute;
+width: 214px;
+border-color: red;
+height: 62px;
+left: 3px;
+top: 200px;
+color: red;
+font-size: x-large;
+background: #000000;
+}
+
+.btn-girls{
+  /* Group 969 */
+color: red;
+position: absolute;
+width: 214px;
+background-color: rgb(0, 0, 0);
+height: 62px;
+left: 250px;
+top: 200px;
+border-color: rgb(255, 0, 0);
+font-size: x-large;
+}
+
+.btn-girls:active{
+  transform: scale(0.90);
+  background-color: red;
+  color: black;
+  border-color: black solid;
+  transition: 0.5s;
+}
+.btn-boys:active{
+  transform: scale(0.90);
+  transition: 0.5s;
+  background-color: red;
+  color: black;
+  border-color: black solid;
+
+}
+
+
+.footer_top{
+  justify-content: space-between;
+  display: flex;
+}
+.footer_list{
+justify-content: space-between;
+display: flex;
+
+}
+footer{
+  background-color: white;
+  padding-top: 95px;
+}
+.footer_top{
+  display: flex;
+  justify-content: space-around;
+}
+.footer_top > form{
+  width: min-content;
+}
+
+.form_heading{
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26.25px;
+  letter-spacing: -2px;
+  margin-bottom: 10px;
+}
+.footer_list{
+  list-style: none;
+  justify-content: space-between;
+  display: flex;
+}
+.footer_list-item{
+  margin-bottom: 30px;
+}
+.footer_list-link{
+  text-decoration: none;
+  color: black;
+  letter-spacing: -1px;
+  font-size: 18px;
+  font-weight: 450;
+  line-height: 21.5px;
+
+}
+
+.social-icons{
+  display: flex;
+  gap: 29px;
+}
+
+.social-icon{
+  width: 24px;
+  height: 24px;
+}
+
+.form-text{
+  /* Sign up for emails to get special news and exclusive Puma offers. */
+text-wrap: balance;
+
+
+}
+
+.form-input{
+  border: 2px solid black;
+  display: flex;
+  width: 365px;
+  margin-bottom: 30px;
+  & input{
+    width: 75%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    line-height: 21.5px;
+    letter-spacing: -1px;
+    font-weight: 400;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  & button{
+    width: 25%;
+    background-color: black;
+    border: none;
+    outline: none;
+    padding: 22px 25px;
+  }
+}

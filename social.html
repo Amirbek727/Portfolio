@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Network</title>
+    <link rel="stylesheet" href="social.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Social Network</h1>
+        <div class="upload-form">
+            <input type="file" id="media" accept="image/*,video/*">
+            <textarea id="description" placeholder="Enter description here..."></textarea>
+            <button onclick="uploadMedia()">Upload</button>
+        </div>
+        <div id="media-gallery" class="media-gallery"></div>
+    </div>
+    <script src="social.js"></script>
+</body>
+</html>

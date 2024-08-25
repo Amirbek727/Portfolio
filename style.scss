@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    /* padding-left: 122px; */
+    /* border: 2px dashed darkblue; */
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+.list {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    width: fit-content;
+}
+.list-item {
+    border-bottom: 2px solid transparent;
+    padding-bottom: 28px;
+}
+.list-item:hover {
+    border-bottom: 2px solid black;
+}
+.list-item:hover .list-link {
+    color: #000000;
+    opacity: 100%;
+}
+.list-link {
+    color: #000000;
+    opacity: 40%;
+    text-decoration: none;
+}

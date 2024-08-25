@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Sharing Site</title>
+    <link rel="stylesheet" href="figma6.css">
+</head>
+<body>
+    <header>
+        <h1>Media Sharing Site</h1>
+        <button id="logout-button">Logout</button>
+    </header>
+
+    <div class="container">
+        <!-- Profile Section -->
+        <aside class="profile-section">
+            <img id="profile-pic" src="" alt="Profile Picture">
+            <p id="profile-name"></p>
+        </aside>
+
+        <!-- Media Upload Form -->
+        <section class="upload-section">
+            <h2>Upload Media</h2>
+            <form id="upload-form">
+                <input type="file" id="media-file" accept="image/*,video/*" required>
+                <textarea id="media-comment" placeholder="Add a comment" required></textarea>
+                <button type="submit">Upload</button>
+            </form>
+        </section>
+
+        <!-- Media Display Section -->
+        <section class="media-section" id="media-display">
+            <h2>Media Feed</h2>
+            <!-- Media items will be dynamically inserted here -->
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

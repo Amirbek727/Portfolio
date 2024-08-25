@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+html {
+    font-size: 10px;
+}
+body {
+    background-color: #f6f6f6;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    max-width: 1920px;
+    margin: 0 auto;
+    
+}
+img {
+    display: block;
+    width: 100%;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.btn {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgb(255, 0, 0);
+    background-color: #000000;
+    padding: 6px 34px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btn:hover {
+    opacity: 0.9;
+}
+.btn:active {
+    scale: 0.98;
+}
+.btn-big {
+    padding: 18px 90px;
+    font-size: 22px;
+}
+.btn-black {
+    background-color: #000;
+    color: #ff0000;
+}
+.btn:hover{
+    color: black;
+    background-color: red;
+}
+.btn:active{
+    background-color: #000;
+    color: #ff0000;
+}
+/* header styles */
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.list {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+}
+
+.list-item {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: rgb(0, 0, 0, 0.4);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+}
+.list-item:hover {
+    color: rgb(0, 0, 0, 1);
+    border-bottom: 2px solid black;
+}
+.logo {
+    position: absolute;
+    width: 50px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.header__icons {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+.profile-image {
+    width: 46px;
+    height: 46px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+
+.hero__wrapper {
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.hero__title {
+    font-size: 50px;
+    font-weight: 900;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.hero__text {
+    color: white;
+    font-size: 26px;
+    margin-bottom: 62px;
+}
+
+.hero{
+    background-image: url(.//Rectangle\ 3.png);
+}
+
+/*POpular section */
+
+.popular_title{
+    font-size: 40px;
+    line-height: 47px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.popular_head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.popular_cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+}
+.popular_card{
+    flex: 1;
+    height: 450px;
+    border: 2px red solid;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-color: white;
+}
+.popular_card:first-child{
+  background-image: url(Rectangle\ 9.png);
+}
+
+.popular_card:last-child{
+    background-image: url(Rectangle\ 15.png);
+}
+
+.popular_card-info{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    width: fit-content;
+}
+
+.card-title{
+    font-size: 222px;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 4px;
+}
+
+.card-text{
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 20px;
+}
+

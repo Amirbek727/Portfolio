@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.arrows{
+    display: flex;
+    background-color: grey;
+}
+
+.puma1{
+    /* Group 1256 */
+
+background-size: cover;
+width: 289px;
+height: 349px;
+left: 121px;
+top: 1461px;
+background-image: url(Rectangle\ 9.png);
+}
+
+.head1{
+    /* New in RS */
+
+position: absolute;
+width: 200px;
+height: 48px;
+left: 125px;
+top: 1372px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #000000;
+
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+.header {
+    text-align: left;
+    font-weight: 500;
+    line-height: 47px;
+    size: 40px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.product {
+    width: 23%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.product img {
+    width: 100%;
+    height: auto;
+}
+.product-name {
+    font-size: 16px;
+    padding: 10px;
+}
+.product-price {
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bold;
+}
+.cart-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.cart-button:hover {
+    background-color: #555;
+}
+
+.product-4 img {
+    width: 100%;
+    height: auto;
+}
+
+.product-4-name {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.product-4-price {
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.product-4 {
+    width: 23%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+@media(max-width: 425px){
+    .product-4{
+        background-color: black;
+    }
+}
+@media(max-width: 768px) {
+  .header{
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+
+  .list{
+    display: none;
+  }
+}

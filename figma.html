@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="figma.css">
+    <title>Puma Winter Collection</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="menu">
+            <div class="text">
+                <a href="#" style="color: rgb(8, 71, 217);">Women</a>
+                <a href="#" style="color: rgb(8, 71, 217);">Kids  </a>
+                <a href="#" style="color: rgb(8, 71, 217);">Select</a>
+                <a href="#" style="color: rgb(8, 71, 217);">Outlet</a>
+            </div>
+        </div>
+        <div class="logo">
+            <a href="#"><img src="Frame.jpg" class="header_burger" alt=""></a>
+            <a href="#"><img src="Group 1273.png" alt="Puma Logo"></a>
+        </div>
+        <div class="actions">
+            <a href="#">🔍</a>
+            <a href="#">💖</a>
+            <a href="#">🛒</a>
+            <a href="#">👤</a>
+        </div>
+        <!-- Mobile Menu Icon -->
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    </div>
+    <div class="main">
+        <div class="img-class">
+            <h1>WINTER MODE ACTIVATED</h1>
+            <p>ESSENTIAL COLD WEATHER STYLE</p>
+            <a href="#" class="btn">SHOP NOW</a>
+        </div>
+    </div>
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.navbar .menu');
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
+     

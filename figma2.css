@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.popular{
+    /* Popular product */
+
+position: absolute;
+width: 369px;
+height: 48px;
+left: 123px;
+top: 100px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+}
+
+
+.img1{
+/* Rectangle 448 */
+
+position: absolute;
+width: 588px;
+height: 450px;
+left: 121px;
+top: 822px;
+
+background: #FFFFFF;
+}
+.imgclass{
+/* Rectangle 5 */
+
+position: absolute;
+
+left: 187px;
+
+
+background: url(Rectangle\ 5.png);
+}
+
+.shop-btn{
+    color: rgb(255, 0, 0);
+    background-color: black;
+}
+
+.shop-btn:hover{
+    background-color: rgb(220, 36, 36);
+    color: black;
+    transition: 1s all;
+}
